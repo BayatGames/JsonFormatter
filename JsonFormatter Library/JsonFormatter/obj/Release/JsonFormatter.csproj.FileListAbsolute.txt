@@ -1,0 +1,4 @@
+F:\Unity Packages\JsonFormatter\JsonFormatter Library\JsonFormatter\bin\Release\JsonFormatter.dll
+F:\Unity Packages\JsonFormatter\JsonFormatter Library\JsonFormatter\bin\Release\JsonFormatter.pdb
+F:\Unity Packages\JsonFormatter\JsonFormatter Library\JsonFormatter\obj\Release\JsonFormatter.dll
+F:\Unity Packages\JsonFormatter\JsonFormatter Library\JsonFormatter\obj\Release\JsonFormatter.pdb
