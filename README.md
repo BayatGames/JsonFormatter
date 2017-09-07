@@ -2,6 +2,11 @@
 
 JsonFormatter is an Fast, Lightweight Json serialization/deserialization library for Unity projects.
 
+## Download
+
+- [:sparkles: Download Latest Version](https://github.com/BayatGames/JsonFormatter/releases/latest)
+- Asset Store is pending review
+
 ## Features
 
 - Serializing Collections: Lists, Dictionaries, IEnumerable
