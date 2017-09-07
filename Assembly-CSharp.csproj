@@ -51,13 +51,16 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\BayatGames\JsonFormatter\Examples\Scripts\Example01.cs" />
+     <Compile Include="Assets\BayatGames\JsonFormatter\Examples\Scripts\Example02.cs" />
      <Compile Include="Assets\BayatGames\JsonFormatter\Scripts\JsonExtensions.cs" />
      <Compile Include="Assets\BayatGames\JsonFormatter\Scripts\JsonFormatter.cs" />
      <Compile Include="Assets\BayatGames\JsonFormatter\Scripts\JsonReader.cs" />
      <Compile Include="Assets\BayatGames\JsonFormatter\Scripts\JsonTextReader.cs" />
      <Compile Include="Assets\BayatGames\JsonFormatter\Scripts\JsonTextWriter.cs" />
      <Compile Include="Assets\BayatGames\JsonFormatter\Scripts\JsonWriter.cs" />
-     <Compile Include="Assets\Test.cs" />
+     <None Include="Assets\BayatGames\JsonFormatter\Documentation\JsonFormatter Documentation.txt" />
+     <None Include="Assets\BayatGames\JsonFormatter\Readme.txt" />
  <Reference Include="UnityEngine.UI">
  <HintPath>C:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/GUISystem/UnityEngine.UI.dll</HintPath>
  </Reference>

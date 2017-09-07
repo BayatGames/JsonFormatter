@@ -71,7 +71,7 @@ namespace BayatGames.Serialization.Formatters.Json
 		/// <param name="type">Type.</param>
 		public override object Read ( Type type )
 		{
-			throw new NotImplementedException ();
+			return Read ( type, m_Reader.ReadToEnd ().RemoveWhitespaceJson () );
 		}
 
 		/// <summary>
@@ -92,7 +92,7 @@ namespace BayatGames.Serialization.Formatters.Json
 		protected virtual object Read ( Type type, string json )
 		{
 			object result = null;
-			if ( type == null || string.IsNullOrEmpty ( json ) || json.Length <= 2 )
+			if ( type == null || string.IsNullOrEmpty ( json ) )
 			{
 				result = null;
 			}
@@ -214,8 +214,11 @@ namespace BayatGames.Serialization.Formatters.Json
 			ISerializationSurrogate surrogate = null;
 			if ( m_SurrogateSelector != null )
 			{
-				info = new SerializationInfo ( type, new FormatterConverter () );
 				surrogate = m_SurrogateSelector.GetSurrogate ( type, m_Context, out selector );
+				if ( surrogate != null )
+				{
+					info = new SerializationInfo ( type, new FormatterConverter () );
+				}
 			}
 			if ( result != null )
 			{
