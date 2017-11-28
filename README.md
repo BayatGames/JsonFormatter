@@ -43,6 +43,7 @@ string json = JsonFormatter.SerializeObject ("Hello World");
 - [Unity Asset Store](https://www.assetstore.unity3d.com/en/#!/search/page=1/sortby=popularity/query=publisher:26641)
 - [Support and News](https://github.com/BayatGames/Support)
 - [Community Thread](https://forum.unity3d.com/threads/jsonformatter-complete-json-serialization-library-for-unity.493969/)
+- [:rocket: Patreon](https://www.patreon.com/BayatGames)
 
 ## License
 
